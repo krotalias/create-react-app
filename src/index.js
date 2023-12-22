@@ -28,7 +28,7 @@
  * @see <a href="../src/index.js">source</a>
  * @see <a href="https://create-react-app-beige-mu-74.vercel.app">link</a>
  * @see <a href="../package.json">package.json</a>
- * @see <a href="/nodejs/books/react-handbook.pdf#page=13">React Handbook</a>
+ * @see <a href="https://flaviocopes.com/books-dist/react-handbook.pdf#page=13">React Handbook</a>
  */
 
 /**

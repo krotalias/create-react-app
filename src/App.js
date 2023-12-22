@@ -23,7 +23,7 @@
  * @author Paulo Roma
  * @since 08/10/2021
  * @see <a href="../src/App.js">source</a>
- * @see <a href="/nodejs/books/react-handbook.pdf#page=14">React Handbook</a>
+ * @see <a href="https://flaviocopes.com/books-dist/react-handbook.pdf#page=14">React Handbook</a>
  */
 
 import logo from "./logo.svg";
