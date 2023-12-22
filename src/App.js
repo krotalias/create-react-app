@@ -45,8 +45,9 @@ import "./App.css";
  * (which stands for properties) object argument with data and returns a
  * {@link https://react.dev/reference/react/createElement React element}.<br>
  * We call such components “function components” because they are literally JavaScript functions.</p>
- * @memberof React.Component
+ *
  * @returns {React.Element} a react element with a paragraph, an image, and an anchor.
+ * @see {@link React.Component}
  */
 function App() {
   return (
