@@ -2,23 +2,24 @@
  * @file
  *
  * Summary.
- * <p>The first React component, the App component defined in the
+ * <p>The first React component, the App component, defined in the
  * default application built by {@link https://create-react-app.dev create-react-app}.</p>
  *
  * <p>This looks like HTML, but it's not really HTML. It's a little different.
  * And it's a bit strange to have this code inside a JavaScript file. This does not
  * look like JavaScript at all!</p>
  *
- * Under the hood, React will process the JSX and it will transform it into JavaScript that the browser will be able to interpret.
+ * <p>Under the hood, React will process the {@link https://react.dev/learn/writing-markup-with-jsx JSX}
+ * and it will transform it
+ * into JavaScript that the browser will be able to interpret.<br>
+ * Therefore, we're writing JSX but, in the end, there's a translation step
+ * (carried out by a toolchain called {@link https://babeljs.io/docs/babel-plugin-transform-react-jsx Babel})
+ * that makes it digestible to a JavaScript interpreter.</p>
  *
- * <p>So we're writing JSX but, in the end, there's a translation step that makes it digestible to a JavaScript interpreter.</p>
- *
- * <p>React gives us this interface for one reason: it's easier to build UI interfaces using JSX.</p>
- *
- * <p>Once you get more familiar with it, of course.</p>
- *
- * <p>In the next section, we'll talk about how JSX lets you easily compose a UI,
- * then we'll look at the differences with "normal HTML" that you need to know.</p>
+ * <p>{@link https://react.dev React} gives us this interface for one reason:
+ * it's easier to build UI interfaces using JSX,
+ * once you get more familiar with it, of course.<br>
+ * Although, JSX lets you easily compose a UI, there are differences from "<i>normal HTML</i>" that you need to know.</p>
  *
  * @author Paulo Roma
  * @since 08/10/2021

@@ -2,26 +2,29 @@
  * @file
  *
  * Summary.
- * <p>We import some things, and we export a function called App.</p>
+ * <p>We import some stuff, and we export a function called App.</p>
  *
  * <p>The things we import in this case are a JavaScript library
- * (the react npm package), an SVG image, and a CSS file.</p>
+ * (the react npm package), an {@link https://en.wikipedia.org/wiki/SVG SVG} image, and a CSS file.</p>
  *
- * <p>{@link https://create-react-app.dev create-react-app} is set up in a way that allows us to import images and CSS to use in our JavaScript,
- * but this is not something you need to care about now. What you need to care about is the concept of a component.</p>
+ * <p>{@link https://create-react-app.dev create-react-app} is set up in a way
+ * that allows us to import images and CSS to use in our JavaScript,
+ * but this is not something you need to care about now.<br>
+ * What you need to care about is the concept of a {@link React.Component component}.</p>
  *
- * <p>App is a function that in the original example returns something that at first sight looks quite strange.
+ * <p>{@link App} is a function that in the original example returns something
+ * that at first sight looks quite strange.<br>
  * It looks like HTML but it has some JavaScript embedded into it.</p>
  *
- * <p>That is JSX, a special language we use to build a component's output. We'll
- * talk more about JSX in the next section.</p>
- *
- * <p>In addition to defining some JSX to return, a component has several other characteristics.</p>
+ * <p>That is {@link https://react.dev/learn/writing-markup-with-jsx JSX},
+ * a special language we use to build a component's output.<br>
+ * In addition to defining some JSX to return, a component has several other characteristics.</p>
  *
  * A component can have its own state, which means it encapsulates some variables that other components
- * can't access unless this component exposes this state to the rest of the application.
+ * can't access, unless this component exposes this state to the rest of the application.
  *
- * <p>A component can also receive data from other components. In this case, we talk about props.</p>
+ * <p>A component can also receive data from other components. In this case, we talk about
+ * {@link https://react.dev/learn/passing-props-to-a-component props}.</p>
  *
  * @author Paulo Roma
  * @since 08/10/2021
