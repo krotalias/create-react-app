@@ -6,10 +6,9 @@
  * <p>To measure any of the supported metrics, you only need to pass a
  * function into the reportWebVitals function in index.js</p>
  *
- * or send to a particular endpoint.
  * @param {function} onPerfEntry this function is fired when the final values
  * for any of the metrics have finished calculating on the page.<br>
- * You can use it to log any of the results to the console
+ * You can use it to log any of the results to the console or send to a particular endpoint.
  * @see https://create-react-app.dev/docs/measuring-performance/
  */
 const reportWebVitals = (onPerfEntry) => {
