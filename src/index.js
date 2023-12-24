@@ -71,7 +71,8 @@
  */
 
 import React from "react";
-import ReactDOM from "react-dom";
+// import ReactDOM from "react-dom";
+import { createRoot } from "react-dom/client";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
@@ -86,11 +87,29 @@ import { sendToVercelAnalytics } from "./vitals";
  * @see https://reactjs.org/docs/react-dom.html#render
  * @see https://react.dev/reference/react-dom/render
  */
+/**
 ReactDOM.render(
   <React.StrictMode>
     <App />
   </React.StrictMode>,
   document.getElementById("root"),
+);
+*/
+
+/**
+ * Create a root to display React components inside a browser DOM node.
+ * After you’ve created a root, you need to call root.render
+ * to display a React component inside of it.
+ * @method createRoot
+ * @memberof external:react-dom
+ * @see https://react.dev/reference/react-dom/client/createRoot
+ * @see https://react.dev/reference/react/StrictMode
+ */
+const root = createRoot(document.getElementById("root"));
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
 );
 
 reportWebVitals(sendToVercelAnalytics);
